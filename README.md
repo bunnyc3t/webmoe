@@ -1,2 +1,2 @@
-# webmoe (really, it's just webusb)
-WebUSB flash tool
+# webmoe (really, it's just REDACTED)
+ tool
