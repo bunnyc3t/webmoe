@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,436;1,436&display=swap');
 button {
   /* makey the button pretty */
   font-family: 'Roboto Mono', monospace;
@@ -14,7 +14,7 @@ button {
   cursor: pointer;
   display: inline-block;
   white-space: nowrap;          /* Prevents wrapping */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
