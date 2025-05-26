@@ -1,1 +1,17 @@
-.button {border-radius: 100%;}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+button {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #95C3FF;
+  border: none;
+  color: #222;
+  border-radius: 999px;         /* Pill shape */
+  padding: 0.5em 1.5em;         /* Responsive padding */
+  min-width: 2.5em;             /* Ensures pill shape even for short text */
+  font-size: 1em;
+  transition: width 0.2s, height 0.2s, background 0.2s;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;          /* Prevents wrapping */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
