@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,436;1,436&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 button {
   /* makey the button pretty */
   font-family: 'Roboto Mono', monospace;
@@ -21,4 +21,7 @@ button {
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* i forgor */
+}
+*:not(button) {
+  font-family: 'Roboto', sans-serif;
 }
