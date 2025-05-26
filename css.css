@@ -21,6 +21,14 @@ button {
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* i forgor */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent;
+  -khtml-tap-highlight-color: rgba(0,0,0,0);
+  -khtml-tap-highlight-color: transparent; /* im NOT sure whether this section works, open a pull request and remove it if so. */
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: rgba(0,0,0,0);
+  -ms-tap-highlight-color: transparent;
 }
 *:not(button) {
   font-family: 'Roboto', sans-serif;
