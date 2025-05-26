@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
 
 button {
+  /* makey the button pretty */
   font-family: 'Roboto Mono', monospace;
   background-color: #95C3FF;
   border: none;
